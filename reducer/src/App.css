@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+.App {
+  text-align: center;
+}
+
+.todo {
+  border: 2px solid grey;
+  height: 100px;
+  width: 300px;
+  background-color: yellow;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.todo-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.completed {
+  text-decoration: line-through red;
+}
+
+input {
+  width: 200px;
+  margin: 10px;
+  height: 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.submit-btn {
+  width: 200px;
+  margin: 10px;
+  height: 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.clear-btn {
+  width: 200px;
+  margin: 10px;
+  height: 50px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+}
